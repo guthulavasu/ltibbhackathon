@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: mysqldb
 spec:
-  ClusterIP: None
+  clusterIP: None
   selector:
     app: bankapp-db
   ports:
